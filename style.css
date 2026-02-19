@@ -1,0 +1,60 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 200dvh;
+    background: url(https://blog.uptodown.com/wp-content/uploads/gameloopsubwaysurfersEN.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 3px 3px 10px black;
+    margin-bottom: 30px;
+}
+
+.play-btn {
+    padding: 15px 50px;
+    font-size: 24px;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.play-btn:hover {
+    background: red;
+    transform: scale(1.1);
+}
+
+.menu button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu button:hover {
+    background: yellow;
+}
